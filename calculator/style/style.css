@@ -1,0 +1,80 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+    sans-serif; 
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(68, 61, 61);
+}
+
+main{
+    background-color: coral;
+    border: 1px solid black;
+    overflow: hidden;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 9px rgb(41, 41, 41, 0.5);
+}
+.result{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    padding-right: 22px;
+    font-size: 40px;
+}
+.calculation-symblos{
+    display: flex;
+    flex-direction: column;
+    
+}
+.arithmetic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 20px 0;
+    gap: 20px;
+    text-align: center;
+}
+.arithmetic button {
+    background-color: gray;
+    border: none;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.expression{
+    display: flex;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    gap: 20px;
+}
+.numbers button,
+.equals{
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 6px;
+}
+.numbers button:last-child{
+    background-color: red;
+}
+
+.equals{
+    margin: 20px 0;
+    background-color: green;
+}

@@ -1,0 +1,14 @@
+header{
+    display: flex;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.about h1{
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+.about p{
+    padding-top: 8px;
+}

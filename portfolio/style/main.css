@@ -1,0 +1,26 @@
+main{
+    margin-top: 40px;
+}
+.learn{
+    display: flex;
+    margin-bottom: 50px;
+}
+.languages{
+    display: flex;
+    flex-direction: column;
+}
+.lang{
+    display: flex;
+    border: 1px solid black;
+}
+.lang p{
+    width: 150px;
+    margin: 0.4em 0;
+}
+.works{
+    display: flex;
+}
+.work {
+    border: 1px solid black;
+    margin-right: 35px;
+}
