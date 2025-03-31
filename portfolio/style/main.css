@@ -8,19 +8,41 @@ main{
 .languages{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 .lang{
     display: flex;
+    flex-direction: column;
     border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
 }
 .lang p{
-    width: 150px;
+    display: flex;
+    justify-content: center;
     margin: 0.4em 0;
+    
 }
 .works{
     display: flex;
+    flex-direction: row;
 }
 .work {
     border: 1px solid black;
-    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+@media(min-width: 600px){
+    .lang{
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 500px;
+        padding: 10px;
+    }
+    .projects{
+        display: flex;
+        gap: 5px;
+        background-color: orange;
+        flex-wrap: wrap;
+    }
 }

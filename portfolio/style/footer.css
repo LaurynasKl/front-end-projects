@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    margin-top: 40px;
+}
+
+.contact {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+}
+.number {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.socialMedia {
+    display: flex;
+}
