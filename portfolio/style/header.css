@@ -4,6 +4,7 @@ header{
 .about{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .about h1{
     border-bottom: 1px solid black;
