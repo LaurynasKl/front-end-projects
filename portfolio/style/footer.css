@@ -15,7 +15,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    margin-top: 10px;
 }
 .socialMedia {
     display: flex;
+    gap: 10px;
+    font-size: 25px;
 }

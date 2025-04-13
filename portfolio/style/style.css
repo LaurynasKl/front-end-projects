@@ -8,7 +8,7 @@ body * {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
     sans-serif; 
-    background-color: #2C2C2C;
+    background-color: #181818;
     color: #dee2e6;
     width: 80%;
     margin: 50px auto ;
@@ -22,7 +22,13 @@ body {
     flex-direction: column;
     justify-content: start;
     cursor: pointer;
-    gap: 3px;
+    gap: 8px;
+}
+.logo a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .logo-text{
@@ -31,6 +37,7 @@ body {
     flex-direction: row;
     justify-content: end;
 }
+
 @media(min-width: 1150px){
     body{
         width:60%;
