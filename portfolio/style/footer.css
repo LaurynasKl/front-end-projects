@@ -7,9 +7,10 @@ footer {
     border-top: 1px solid black;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 45px;
     width: 100%;
     margin-top: 5px;
+    padding-top: 10px;
 }
 .number {
     display: flex;
@@ -19,6 +20,21 @@ footer {
 }
 .socialMedia {
     display: flex;
-    gap: 10px;
-    font-size: 25px;
+    gap: 20px;
+    font-size: 30px;
+}
+.contact-logo{
+    display: flex;
+    gap: 15px;
+}
+.contact-logo i{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+@media (min-width: 670px){
+    .contact{
+        flex-direction: row;
+    }
 }
