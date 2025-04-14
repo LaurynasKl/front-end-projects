@@ -15,7 +15,7 @@ body {
 }
 
 main{
-    background-color: coral;
+    background-color: #3a5a40;
     border: 1px solid black;
     overflow: hidden;
     width: 400px;
@@ -45,7 +45,7 @@ main{
     text-align: center;
 }
 .arithmetic button {
-    background-color: gray;
+    background-color: #dda15e;
     border: none;
     padding: 15px 0;
     cursor: pointer;
@@ -76,5 +76,5 @@ main{
 
 .equals{
     margin: 20px 0;
-    background-color: green;
+    background-color: darkgreen;
 }
